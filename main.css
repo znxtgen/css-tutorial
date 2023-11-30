@@ -47,22 +47,49 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    margin: 0;
-    padding: 0 20px;
+    padding: 3px;
 }
 
-.main-nav__item a:hover{
-    color: blue;
+.main-nav__item a::after{
+    content: " (Link) ";
+    color: #ff1b68;
 }
 
+.main-nav__item a:hover,
 .main-nav__item a:active{
     color: blue;
+    border-bottom: 5px solid white;
 }
+
+.main-nav__item--cta a{
+    color: white;
+    background-color: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+    color: #ff1b68;
+    background-color: white;
+    border: none;
+}
+
+p::first-letter{
+    color: brown;
+    font-size: 20px;
+}
+
+p{
+    padding: 10px;
+    font-size: 20px;
+}
+
 
 /***************************IDs***************************/
 
 #product-overview {
-    background: #ff1b68;
+    background: url("/freedom.jpg");
     width: 100%;
     height: 528px;
     padding: 10px;
