@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    display: inline-block;
+}
+
+.box-1{
+    background-color: brown;
+    height: 300px;
+    width: 50%;
+    padding: 100px 150px 100px 150px;
+    border: 25px cadetblue solid;
+    margin: 20px 10px 20px 10px;
+    visibility: hidden;
+}
+.box-2{
+    background-color: brown;
+    padding: 100px 50px 100px 50px;
+    border: 25px cadetblue solid;
+    margin: 20px 10px 20px 10px;
+}
+
+.box-2:hover{
+    background-color: blueviolet;
+    border-bottom: 25px solid greenyellow;
+}
+.box-2:active{
+    background-color: blueviolet;
+    border-bottom: 25px solid greenyellow;
+}
+
+img{
+    border: 5px solid blueviolet;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
