@@ -1,0 +1,26 @@
+/****************** Elements ******************/
+main{
+    padding-top: 32px;
+
+}
+
+/****************** Classes ******************/
+.package-section{
+    width: 80%;
+    display: inline-block;
+    margin: 16px 0;
+    padding: 20px;
+    border: 2px #0e4f1f solid;
+    border-left: none;
+}
+
+.package a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 32px;
+}
+
+.package__title{
+    padding: 10px 0;
+}
