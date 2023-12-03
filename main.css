@@ -21,11 +21,28 @@ p{
     font-size: 20px;
 }
 
+#key-features .section-title{
+    color: white;
+    margin: 32px;
+}
+
+#key-features{
+    margin-top: 80px;
+    padding: 16px;
+    background:#ff1b68 ;
+}
+
 /***************************Classes***************************/
 
 .section-title{
     color:#2ddf5c;
     margin: 5px;
+    text-align: center;
+}
+
+.plan__list{
+    width: 80%;
+    margin: auto;
     text-align: center;
 }
 
@@ -76,17 +93,6 @@ p{
 
 .plan__price{
     color: #858585;
-}
-
-#key-features .section-title{
-    color: white;
-    margin: 32px;
-}
-
-#key-features{
-    margin-top: 80px;
-    padding: 16px;
-    background:#ff1b68 ;
 }
 
 .key-feature__list{

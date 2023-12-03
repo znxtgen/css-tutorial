@@ -1,26 +1,76 @@
 /****************** Elements ******************/
 main{
     padding-top: 32px;
+}
 
+/****************** IDs ******************/
+
+#plus{
+    background: rgba(213, 255, 220, 0.95);
+}
+
+#free{
+    background: rgba(234,252,237,0.95);
+    float: right;
+    border-right: none;
+    border-left: 4px solid #0e4f1f;
+    text-align: right;
+}
+
+#free:hover,
+#free:active{
+    border-left-color: #ff5454;
+}
+
+#premium{
+    background: rgba(14,79,31,0.95);
+}
+
+#premium .package__title{
+    color: white;
+}
+
+#premium .package__subtitle{
+    color: #bbb;
 }
 
 /****************** Classes ******************/
 .package-section{
     width: 80%;
-    display: inline-block;
     margin: 16px 0;
-    padding: 20px;
-    border: 2px #0e4f1f solid;
+    border: 4px #0e4f1f solid;
     border-left: none;
 }
 
-.package a{
+.package-section:hover,
+.package-section:active{
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-color: #ff5454;
+}
+
+.package-section a{
     text-decoration: none;
     color: inherit;
     display: block;
-    padding: 32px;
+    padding:32px;
 }
 
 .package__title{
     padding: 10px 0;
+}
+
+.package__subtitle{
+    color: #979797;
+}
+
+.package__info{
+    color: #0e4f1f;
+    padding: 16px;
+    border: 1px solid #0e4f1f;
+    font-size: 20px;
+    background: white;
+}
+
+.clearfix{
+    clear:both;
 }
