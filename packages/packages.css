@@ -1,6 +1,6 @@
 /****************** Elements ******************/
 main{
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 
 /****************** IDs ******************/
@@ -38,15 +38,15 @@ main{
 .background{
     background: url("../images/plans-background.jpg") center/cover;
     filter: grayscale(40%);
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     z-index: -1;
 }
 
 .package-section{
     width: 80%;
-    margin: 50px 0;
+    margin: 2rem 0;
     border: 4px #0e4f1f solid;
     border-left: none;
     position: relative;
@@ -62,11 +62,11 @@ main{
     text-decoration: none;
     color: inherit;
     display: block;
-    padding:32px;
+    padding: 2rem;
 }
 
 .package__title{
-    padding: 10px 0;
+    padding: 0.6rem 0;
 }
 
 .package__subtitle{
@@ -77,18 +77,18 @@ main{
     position: absolute;
     top: 0;
     right: 0;
-    margin: 20px;
-    font-size: 12px;
+    margin: 1.2rem;
+    font-size: 0.8rem;
     color: white;
     background: #ff5454;
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 .package__info{
     color: #0e4f1f;
-    padding: 16px;
+    padding: 1rem;
     border: 1px solid #0e4f1f;
-    font-size: 20px;
+    font-size: 1.25rem;
     background: white;
 }
 
