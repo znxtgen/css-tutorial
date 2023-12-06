@@ -14,7 +14,6 @@
     background-image: radial-gradient(circle at 20% 50%, red,blue, #ff1b68);*/
     width: 100vw;
     height: 33vh;
-    margin-top: 2.75em;
     position: relative;
 }
 
@@ -92,24 +91,6 @@ p{
 
 .plan__feature{
     margin: 0.5rem 0;
-}
-
-@media (min-width: 40rem){
-    .plan__list{
-        width: 100%;
-        text-align: center;
-    }
-
-    .plan{
-        display: inline-block;
-        width: 30%;
-        vertical-align: middle;
-        min-width: 13rem;
-        max-width: 25rem;
-    }
-    .plan--highlighted{
-        box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
-    }
 }
 
 .plan__title{
@@ -199,9 +180,7 @@ p{
 
 
   /******  Media queries  ******/
-
-  
-@media (min-width: 40rem){
+@media (min-width: 40rem) and (min-height: 40rem){
     #product-overview{
         height: 40vh;
         background-position: 50% 25%;
@@ -217,6 +196,22 @@ p{
         max-width: 25rem;
         vertical-align: top;
     }
+
+    .plan__list{
+        width: 100%;
+        text-align: center;
+    }
+
+    .plan{
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+        min-width: 13rem;
+        max-width: 25rem;
+    }
+    .plan--highlighted{
+        box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    }
 }
 
 @media (min-width: 60rem){
@@ -228,6 +223,4 @@ p{
     #product-overview h1{
         font-size: 5rem;
     }
-
-    
 }
