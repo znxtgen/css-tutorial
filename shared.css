@@ -12,7 +12,7 @@ body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
     display: grid;
-    grid-template-rows: 3.5rem auto 8rem;
+    grid-template-rows: 3.5rem auto fit-content(8rem);
     grid-template-areas: "header"
                          "main"
                          "footer";
@@ -20,8 +20,6 @@ body {
 }
 
 main{
-    /* min-height: calc(100vh - 3.5rem -8rem); */
-    margin-top: 3.5rem;
     grid-area: main;
 }
 
@@ -151,7 +149,7 @@ main{
 }
 
 .main-footer__link{
-    margin: 0.5rem 0;
+    margin: 0.5rem 1rem;
 }
 
 .main-footer__link a{
