@@ -61,6 +61,7 @@ main{
     border: 4px #0e4f1f solid;
     border-left: none;
     position: relative;
+    overflow: hidden;
 }
 
 .package-section:hover,
@@ -80,19 +81,23 @@ main{
     padding: 0.6rem 0;
 }
 
-.package__subtitle{
-    color: #979797;
-}
-
 .package__badge{
     position: absolute;
     top: 0;
     right: 0;
-    margin: 1.2rem;
+    margin: 0;
     font-size: 0.8rem;
     color: white;
     background: #ff5454;
     padding: 0.5rem;
+    transform: rotate(45deg) translate(3.5rem , -1rem);
+    transform-origin: center;
+    width: 12rem;
+    text-align: center;
+}
+
+.package__subtitle{
+    color: #979797;
 }
 
 .package__info{

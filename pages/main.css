@@ -1,30 +1,14 @@
-main{
-  padding-top: 2.5rem;
-}
-
-.testimonial {
-    font-size: 1.2em;
-  }
-  
-  /* .testimonial__list {
-    width: 80%;
-    margin: auto;
-  } */
-  
-  .testimonial__image-container{
+.testimonial__image-container{
     width: 60%;
     max-width: 40rem;
     box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
-    transform: skew(20deg);
-    overflow: hidden;
   }
 
   .testimonial__image{
     width: 100%;
     vertical-align: top;
-    transform: skew(-20deg) scale(1.35);
   }
-  
+
   .testimonial__info {
     text-align: right;
     padding: 0.9rem;
@@ -83,4 +67,3 @@ main{
       width: 30%;
     }
   }
-  
